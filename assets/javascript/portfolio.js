@@ -27,3 +27,4 @@ function autoType(elementClass, typingSpeed){
   $(document).ready(function(){   
     autoType(".type-js",100);
   });  
+ 

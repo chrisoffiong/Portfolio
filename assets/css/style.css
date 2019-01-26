@@ -11,8 +11,8 @@
 }
 
 h1 {
-    font-family: 'Righteous', cursive;
-    color:white;
+    font-family: 'Cuprum', sans-serif;
+    color:rgba(255, 255, 255, 0.747);
 }
 .headline{
     margin: 100px;
@@ -76,6 +76,15 @@ p {
     color: white;
     text-align:center;
   }
+  .bot {
+    background-image: url("../images/bot.jpeg");
+    height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.603);
+  }
   .image {
       padding-bottom: 40px;
   }
@@ -102,11 +111,10 @@ p {
 
 .caption {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate( -50%, -50% );
-    text-align: center;
-    color: white;
+ 
+    
+    
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 @media only screen and (max-width: 380px) {
@@ -116,7 +124,7 @@ p {
         margin: 0px;
     }
     
-    .text-js {
+    .text-js,h5 {
         font-size: 1.5em;
     }
 }
@@ -127,7 +135,7 @@ p {
         height: 255px;
     }
     
-    .text-js {
+    .text-js,h5 {
         font-size: 1.5em;
     }
 
