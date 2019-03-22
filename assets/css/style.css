@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgba(173, 152, 152, 0.603);
     color: white;
     text-align:center;
 }
@@ -161,4 +161,12 @@ p {
         margin: 25px;
         width: 250px;
     }
+}
+
+#contact {
+    padding: 30px;
+}
+
+#email {
+    margin-bottom: 20px;
 }
