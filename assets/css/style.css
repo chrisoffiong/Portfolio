@@ -95,9 +95,7 @@ p {
     width: 300px;
     height: 300px;
   }
-  .contact {
-      padding-top: 40px;
-  }
+  
   .image2 {
       height: 100%;
       width: 100%;
@@ -132,10 +130,12 @@ p {
     opacity: 1;
   }
   
-  .port, .contact {
-      padding-top: 70px;
+  .port, .contact, .about {
+      padding: 60px;
   }
- 
+ .contact2 {
+     padding-top: 40px;
+ }
   .text1 {
     color: white;
     font-size: 20px;
