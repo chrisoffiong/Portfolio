@@ -99,13 +99,56 @@ p {
       padding-top: 40px;
   }
   .image2 {
-      margin:80px;
+      height: 100%;
+      width: 100%;
+      
       
   }
- 
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: blue;
+  }
 
-.thumbnail {
+  .thumbnail > .a {
+    height: 200px;
+    width: 300px;
     position: relative;
+    display: inline-block;
+  }
+  
+  .a {
+      margin: 80px;
+      font-family: 'Righteous',cursive;
+  }
+  .a:hover .overlay {
+    opacity: 1;
+  }
+  
+  .port, .contact {
+      padding-top: 70px;
+  }
+ 
+  .text1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.thumbnail {
+    
     display: inline-block;
 }
 
@@ -163,8 +206,8 @@ p {
     }
 }
 
-#contact {
-    padding: 30px;
+#contact, #email {
+    padding-bottom: 70px;
 }
 
 #email {
