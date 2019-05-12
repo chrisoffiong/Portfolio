@@ -8,6 +8,7 @@
     background-color: rgba(173, 152, 152, 0.603);
     color: white;
     text-align:center;
+    display: block;
 }
 
 h1 {
@@ -54,15 +55,16 @@ p {
       font-family: 'Righteous',cursive;
   }
   #intro {
-      margin-top: 20px;
+      margin-top: 10px;
   }
   .aboutme, .about {
       text-align:center;
   }
  #me {
-     vertical-align: center;
+    
      height: 280px;
      width: 300px;
+     display: block;
  }
   #skils {
       padding-bottom: 200px;
@@ -133,7 +135,8 @@ p {
   }
   
   .port, .contact, .about {
-      padding: 60px;
+      padding: 40px;
+      text-decoration: underline;
   }
  .contact2 {
      padding-top: 40px;
