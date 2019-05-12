@@ -1,207 +1,237 @@
 .jumbo {
-    background-image: url("../images/code.jpg");
-    height: 360px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: rgba(173, 152, 152, 0.603);
-    color: white;
-    text-align:center;
-    display: block;
+  background-image: url("../images/code.jpg");
+  height: 360px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgba(173, 152, 152, 0.603);
+  color: white;
+  text-align: center;
+  display: block;
 }
 
 h1 {
-    font-family: 'Cuprum', sans-serif;
-    color:rgb(255, 255, 255);
+  font-family: 'Cuprum', sans-serif;
+  color: rgb(255, 255, 255);
 }
-.headline{
-    margin: 100px;
-    color: white;
-    font-size: 24px;
-    text-align: center;
-    h3{
-      letter-spacing: 1.6px;
-      font-weight: 300;
-    }
+
+.headline {
+  margin: 100px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+
+  h3 {
+    letter-spacing: 1.6px;
+    font-weight: 300;
   }
-p {
-    font-family: 'Open Sans Condensed', sans-serif;
 }
-.text-js{
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.text-js {
+  opacity: 0;
+}
+
+.cursor {
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: -5px;
+  width: 2px;
+  /* Change colour of Cursor Here */
+  background-color: white;
+  z-index: 1;
+  animation: flash 0.5s none infinite alternate;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
     opacity: 0;
   }
-  .cursor{
-    display: block;
-    position: absolute;
-    height: 100%;
-    top: 0;
-    right: -5px;
-    width: 2px;
-    /* Change colour of Cursor Here */
-    background-color: white;
-    z-index: 1;
-    animation: flash 0.5s none infinite alternate;
-  }
-@keyframes flash{
-    0%{
-      opacity: 1;
-    }
-    100%{
-      opacity: 0;
-    }
-  }
-  h4,h3 {
-      font-family: 'Righteous',cursive;
-  }
-  #intro {
-      margin-top: 10px;
-  }
-  .aboutme, .about {
-      text-align:center;
-  }
- #me {
-    
-     height: 280px;
-     width: 300px;
-     display: block;
- }
-  #skils {
-      padding-bottom: 200px;
-  }
-  .mid {
-      background-image: url("../images/mid.png");
-      height: 200px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.603);
-    color: white;
-    text-align:center;
-  }
-  .bot {
-    background-image: url("../images/bot.jpeg");
-    height: 200px;
+}
+
+h4,
+h3 {
+  font-family: 'Righteous', cursive;
+}
+
+#intro {
+  margin-top: 10px;
+}
+
+.aboutme,
+.about {
+  text-align: center;
+}
+
+#me {
+
+  height: 350px;
+  width: 400px;
+  display: block;
+  padding: 20px;
+}
+
+#skils {
+  padding-bottom: 200px;
+}
+
+.mid {
+  background-image: url("../images/mid.png");
+  height: 200px;
   width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.603);
-  }
-  .image {
-      padding-bottom: 40px;
-  }
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    height: 300px;
-  }
-  
-  .image2 {
-      height: 100%;
-      width: 100%;
-      
-      
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: blue;
-  }
+  color: white;
+  text-align: center;
+}
 
-  .thumbnail > .a {
-    height: 200px;
-    width: 300px;
-    position: relative;
-    display: inline-block;
-  }
-  
-  .a {
-      margin: 50px;
-      font-family: 'Righteous',cursive;
-  }
-  .a:hover .overlay {
-    opacity: 1;
-  }
-  
-  .port, .contact, .about {
-      padding: 40px;
-      text-decoration: underline;
-  }
- .contact2 {
-     padding-top: 40px;
- }
-  .text1 {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
+.bot {
+  background-image: url("../images/bot.jpeg");
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.603);
+}
+
+.image {
+  padding-bottom: 40px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+}
+
+.image2 {
+  height: 100%;
+  width: 100%;
+
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: blue;
+}
+
+.thumbnail>.a {
+  height: 200px;
+  width: 300px;
+  position: relative;
+  display: inline-block;
+}
+
+.a {
+  margin: 50px;
+  font-family: 'Righteous', cursive;
+}
+
+.a:hover .overlay {
+  opacity: 1;
+}
+
+.port,
+.contact,
+.about {
+  padding: 30px;
+  text-decoration: underline;
+}
+
+.contact2 {
+  padding-top: 40px;
+}
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .thumbnail {
-    
-    display: inline-block;
+
+  display: inline-block;
 }
 
 .caption {
-    position: absolute;
- 
-    
-    
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-@media only screen and (max-width: 380px) {
-    .image2 {
-        width: 150px;
-        height: 155px;
-        margin: 0px;
-    }
-    
-    .text-js,h5 {
-        font-size: 1.5em;
-    }
-}
-@media only screen and (max-width: 500px) {
-  
-    .text-js,h5 {
-        font-size: 1.5em;
-    }
+  position: absolute;
 
-    
+
+
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 }
+
+@media only screen and (max-width: 380px) {
+  .image2 {
+    width: 150px;
+    height: 155px;
+    margin: 0px;
+  }
+
+  .text-js,
+  h5 {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .text-js,
+  h5 {
+    font-size: 1.5em;
+  }
+
+
+}
+
 @media only screen and (max-width: 765px) {
 
-    .text-js {
-        font-size: 1.5em;
-    }
+  .text-js {
+    font-size: 1.5em;
+  }
 
-   
-    
-    }
-@media only screen and (max-width:1100px) {
 
-  
+
 }
 
-#contact, #github {
-    padding-bottom: 40px;
+@media only screen and (max-width:1100px) {}
+
+#contact,
+#github {
+  padding-bottom: 40px;
 }
 
 #github {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
